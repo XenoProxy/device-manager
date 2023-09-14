@@ -6,10 +6,8 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            
+    <div class="py-12">        
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">            
             <a class="btn btn-back" href="{{ route('dashboard') }}">Back</a>
 
             <div class="indicators-row">
@@ -28,12 +26,12 @@
                 </div>
 
                 <div class="device-indicators bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-
-                    <img class="temp-img" src="/images/free-icon-thermometer-696601.png">
-
-                    <div class="p-6 text-gray-900 dark:text-gray-100">                                            
-                        <span>{{ $device->boiler_temp }}</span> 
-                    </div>              
+                    <div class="stat">
+                        <img class="temp-img" src="/images/free-icon-thermometer-696601.png">
+                        <div class="p-6 text-gray-900 dark:text-gray-100">{{ $device->boiler_temp }}</div> 
+                    </div>
+                                             
+                    <div class="stat-name text-gray-900 dark:text-gray-100">boiler temperature</div> 
                 </div>
             </div>
         </div>        
