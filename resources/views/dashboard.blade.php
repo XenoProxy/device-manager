@@ -9,7 +9,7 @@
         
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
-            <a class="btn btn-create" href="{{ route('dashboard') }}">Add new device</a>
+            <a class="btn btn-create" href="{{ route('device.create') }}">Add new device</a>
            
         
             @foreach ($devices as $device)
