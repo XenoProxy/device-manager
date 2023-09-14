@@ -5,18 +5,34 @@
 
 .device-container{
     margin-top: 30px;
+    height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.info-row{
+.device-img{
+    margin: 10px;
+}
+
+.device-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.info-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.indicators-row{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.device-info{
+.device-indicators{
     width: 200px;
     height: 200px;
     margin: 30px;
@@ -47,4 +63,5 @@
     color: #10fdb7;
     background-color: #0a0f1a;
     margin-right: 30px;
+    align-self: center;
 }
