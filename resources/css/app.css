@@ -52,8 +52,25 @@
     margin-top: 30px;
 }
 
-.stat-name{
+.status{
+    font-size: 26px;
+}
+
+.stat-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 15px;
+}
+
+.xunderline{
+    width: 180px;
+    height: 1.3px;
+    background: linear-gradient(90deg, rgba(255, 113, 113, 0.00) 0%, #633afd, rgba(255, 255, 255, 0) 100%);
+}
+
+.stat-name{
+    margin-top: 7px;
 }
 
 .temp-img{
