@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.device-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;  
+    border-radius: 8px;     
+}
+
+.btn-details {
+    width: 80px;
+    height: 40px; 
+    color: #10fdb7;
+    background-color: #0a0f1a;
+    margin-right: 30px;
+}
