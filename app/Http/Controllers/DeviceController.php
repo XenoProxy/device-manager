@@ -15,7 +15,10 @@ class DeviceController extends Controller
 
     public function show(Device $device)
     {
-        // $polyclinic_name = $doctor->polyclinic->name;
-        return view('device.show', compact('device'));
+        $device_status = 'turned off';
+        if($device->status == 1){
+            $device_status = 'turned on'; 
+        }
+        return view('device.show', compact('device', 'device_status'));
     }
 }
