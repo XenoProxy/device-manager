@@ -7,6 +7,7 @@
     margin-top: 30px;
     height: 200px;
     display: flex;
+    box-shadow: 0 0 15px 0 #040b1a;
 }
 
 .device-img{
@@ -64,4 +65,24 @@
     background-color: #0a0f1a;
     margin-right: 30px;
     align-self: center;
+}
+
+.btn-create{
+    width: 150px;
+    height: 40px;
+    color: #0ddf00;
+    background-color: #1f2937;
+    margin-right: 30px;
+    align-self: center;
+    box-shadow: 0 0 15px 0 #040b1a;
+}
+
+.btn-back{
+    width: 80px;
+    height: 40px;
+    color: #e4880c;
+    background-color: #1f2937;
+    margin-right: 30px;
+    align-self: center;
+    box-shadow: 0 0 15px 0 #040b1a;
 }

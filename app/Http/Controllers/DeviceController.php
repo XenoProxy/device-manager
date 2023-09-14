@@ -21,4 +21,24 @@ class DeviceController extends Controller
         }
         return view('device.show', compact('device', 'device_status'));
     }
+
+    public function create()
+    {
+        return view('device.create');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+        ]);
+
+        Device::create($request->all());
+
+        return redirect()->route('dashboard')
+            ->with('success', 'Device stored successfully');
+    }
 }

@@ -10,7 +10,7 @@
         
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             
-            <a class="btn btn-details" href="{{ route('dashboard') }}">Back</a>
+            <a class="btn btn-back" href="{{ route('dashboard') }}">Back</a>
 
             <div class="indicators-row">
 
