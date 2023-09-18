@@ -63,7 +63,8 @@
     margin-bottom: 15px;
 }
 
-.xunderline{
+hr.xunderline{
+    border-top-width: 0px;
     width: 180px;
     height: 1.3px;
     background: linear-gradient(90deg, rgba(255, 113, 113, 0.00) 0%, #633afd, rgba(255, 255, 255, 0) 100%);
